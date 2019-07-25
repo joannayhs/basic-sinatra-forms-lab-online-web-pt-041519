@@ -7,7 +7,8 @@ class App < Sinatra::Base
   end 
   
   post "/team" do 
-    erb :team 
+   @team
+   erb :team 
     
   end 
 end
